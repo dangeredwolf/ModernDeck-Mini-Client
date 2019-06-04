@@ -1,1 +1,1 @@
-window.open("https://tweetdeck.twitter.com");
+(browser || chrome).tabs.create({url:"https://tweetdeck.twitter.com"}, function(){})
